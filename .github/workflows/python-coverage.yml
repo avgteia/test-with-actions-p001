@@ -39,6 +39,6 @@ jobs:
           MINIMUM_ORAGEN: 70 
 
       - name: Fail if below threshold
-        uses: coverage report --fail-under=90
+        run: coverage report --fail-under=90
 
    
